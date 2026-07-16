@@ -1,5 +1,30 @@
 # Modular Game Components
 
-The Modular Game Components organization creates various "micro"-libraries for game development with the goal of bridging the gap between game frameworks and game engines *while* following the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy). This should allow for one to pick and choose which game components are actually needed and exclude those libraries which are not needed in order to better optimize the footprint of a game *without* doing everything from scratch.
+Modular Game Components builds small, single-purpose libraries for game development — think of them as the missing pieces between a bare game framework and a full game engine. Each library follows the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy): do one job well, so you can pick only what your game actually needs instead of adopting an entire framework or writing it from scratch.
 
-Currently, libraries are provided for Python and OCaml. The libraries, however, work with various game frameworks such as [Pygame](https://pyga.me/) and [Arcade](https://api.arcade.academy/en/stable/). In the future, further language support is planned.
+## Libraries
+
+| Library | Language | Description |
+|---|---|---|
+| [punyecs](https://github.com/Modular-Game-Components/punyecs) | Python | An ECS framework based on attributes and queries |
+| [transytion](https://github.com/Modular-Game-Components/transytion) | Python | An easing library for games |
+| [gtravyl](https://github.com/Modular-Game-Components/gtravyl) | Python | A grid pathfinding library |
+| [lpyout](https://github.com/Modular-Game-Components/lpyout) | Python | A layout framework (WIP) |
+| [ease-caml](https://github.com/Modular-Game-Components/ease-caml) | OCaml | An easing library (WIP) |
+
+## Compatibility
+
+These libraries are designed to slot into existing game frameworks rather than replace them. Today they work with:
+
+- [Pygame](https://pyga.me/)
+- [Arcade](https://api.arcade.academy/en/stable/)
+
+Support for additional languages and frameworks is on the roadmap.
+
+## Contributing
+
+Interested in contributing? Check the issues on individual repos for items labeled `good first issue` — several libraries have open issues that could use a hand.
+
+## Links
+
+- Website: [modular-game-components.github.io](https://modular-game-components.github.io/) (WIP)
