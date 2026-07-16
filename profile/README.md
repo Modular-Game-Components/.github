@@ -14,7 +14,7 @@ Modular Game Components builds small, single-purpose libraries for game developm
 
 ## Compatibility
 
-These libraries are designed to slot into existing game frameworks rather than replace them. Today they work with:
+These libraries are designed to slot into existing game frameworks rather than replace them. Today they work with (but not limited too!):
 
 - [Pygame](https://pyga.me/)
 - [Arcade](https://api.arcade.academy/en/stable/)
