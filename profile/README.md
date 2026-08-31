@@ -10,7 +10,7 @@ Modular Game Components builds small, single-purpose libraries for game developm
 | [transytion](https://github.com/Modular-Game-Components/transytion) | Python | An easing library for games |
 | [gtravyl](https://github.com/Modular-Game-Components/gtravyl) | Python | A grid pathfinding library |
 | [lpyout](https://github.com/Modular-Game-Components/lpyout) | Python | A layout framework (WIP) |
-| [ease-caml](https://github.com/Modular-Game-Components/ease-caml) | OCaml | An easing library (WIP) |
+| [ease-caml](https://github.com/Modular-Game-Components/ease-caml) | OCaml | An easing library |
 
 ## Compatibility
 
