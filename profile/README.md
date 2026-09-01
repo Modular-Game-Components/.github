@@ -27,4 +27,4 @@ Interested in contributing? Check the issues on individual repos for items label
 
 ## Links
 
-- Website: [modular-game-components.github.io](https://modular-game-components.github.io/) (WIP)
+- Website: [modular-game-components.github.io](https://modular-game-components.github.io/)
